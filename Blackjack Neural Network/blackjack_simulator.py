@@ -89,7 +89,7 @@ for i in range(num_samples):
             output_array = np.concatenate((user_cards, dealers_cards))
             output_array.shape = (1, 104)
             np.savetxt(data, output_array,
-                       delimiter=" ", newline='\n')  # saving user slcards and dealer cards stack to file for training
+                       delimiter=" ", newline='\n')  # saving user's cards and dealer cards stack to file for training
             labels.write('1\n')
     else:
         # concatenate user cards and dealers cards to pass to a output file
