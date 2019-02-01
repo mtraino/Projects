@@ -29,7 +29,7 @@ learning_rate = 0.02
 
 # Converting the labels from 0-9 to their binary form
 training_labels = keras.utils.to_categorical(training_labels)
-testing_labels_binary = keras.utils.to_categorical(testing_labels)
+testing_labels_binary = keras.utils.to_categorical(testing_labels) 
 
 # Reshaping the data
 training_data.shape = (60000, 784)
