@@ -32,7 +32,7 @@ model.add(Dense(units=100, activation='sigmoid', input_dim=104))
 model.add(Dense(units=100, activation='sigmoid'))
 model.add(Dense(units=256, activation='sigmoid'))
 model.add(Dense(units=1, activation='relu'))
-model.summary()
+model.summary() 
 sgd = keras.optimizers.SGD(lr=learning_rate)
 model.compile(loss='mean_squared_error', optimizer=sgd, metrics=['accuracy'])
 
