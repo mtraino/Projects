@@ -1,0 +1,26 @@
+Python Version - 3.6
+Blackjack.py
+* Python program to train the neural network.
+* Will save the network to a file to avoid having to retrain the network everytime you want to use the network. 
+* Default name for the network is “blackjack.h5” but can be changed by changing the variable “file_name” the name must end in .h5 for saving from keras. Changing the name you must also changing the loading name in the blackjack_player in order for the file to run with that network.
+* Activations function is sigmoid for all of the hidden layers and relu for the output layer
+Blackjack_simulator.py
+* Python program to generate the training data needed to train the network
+* Default value is set to 500,000 but can be altered by the variable “num_samples” 
+* HIGHLY RECOMMENDED to leave this number at 500,000 because lower number of samples have cause results to be not be the best and often requires the training to run longer.
+Blackjack_player.py
+* Python program to play blackjack vs the dealer.
+* Default runs 100,000 games but can be changed by changing the “num_games” variables. 
+* If you changed the name of the network file from blackjack.h5 to anything else be sure to also change the load_model() to match the new name.
+blackjack.h5
+* A trained version of the neural network to play blackjack
+* 104-100-100-256-1
+blackjack_untrained.h5
+* An untrained version of the network
+* The network has a 104-100-100-256-1
+TestingData.txt
+* A text document containing the testing data used for this problem
+* Specifically 12578 samples
+TestingLabels.txt
+* A text document containing the labels for the testing data
+* A matching 12578 samples to the TestingData.txt
