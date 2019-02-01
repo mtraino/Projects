@@ -1,6 +1,6 @@
 """
 Matthew Traino
-Naive-Bayes classier
+Naive-Bayes classier 
 Python 3.6.7
 """
 # imports
