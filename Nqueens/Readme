@@ -1,0 +1,2 @@
+checkboard.py and graphics.py we provided by my professor for visualizing the board for the N-Queens problem.
+nqueens.py is the genetic algorithm that solves the N-Queens problem. GUI parts were also given to us from the professor.
