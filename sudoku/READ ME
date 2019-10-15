@@ -1,1 +1,2 @@
 puzzles.txt contains the puzzle encoded with 0-9 representing the values in the puzzle. Where 0 is a blank in the puzzle and the numbers given in the puzzle are the fixed values.
+sudoku.oy contains the code to run the genetic algorithm. 
