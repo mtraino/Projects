@@ -1,0 +1,3 @@
+Virus total API script
+Will take in your API key as well as a csv of hashes and save to a json file the results from virtus total 
+Also accounts for the the 4 hashes per limit you can upload to virus total.
