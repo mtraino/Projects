@@ -1,1 +1,2 @@
-Python script allowing you to parse through a list of hashes in a csv format and run them through virustotal’s web API automatically and saving the result of those hashes to a json file. 
+Python script allowing you to parse through a list of hashes in a csv format and run them through 
+virustotal’s web API automatically and saving the result of those hashes to a json file. 
